@@ -20,6 +20,8 @@ function ToDo(description) {
     // Esta funcion, crea un elemento para agregar en la lista. 
     this.description = description;
     this.complete = false;
+
+
 }
 
 // Agregar un método denominado 'completeToDo' al prototipo de la clase ToDo
