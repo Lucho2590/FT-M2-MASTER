@@ -1,1 +1,18 @@
 // Mixins acá
+.boton (@colorDeLetra , @colorDeFondo){
+    background-color: @colorDeFondo;
+    color: @colorDeLetra;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 7px;
+    border: 2px solid @colorDeLetra;
+    text-align: center;
+}
+
+.btn  {
+    .boton (@wild-sand, @btn-bg-color)
+}
+
+.btn:hover {
+    .boton( @btn-bg-color, @wild-sand  )
+}
