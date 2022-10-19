@@ -1,5 +1,12 @@
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+
+/* .targ {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+} */

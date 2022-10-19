@@ -1,0 +1,32 @@
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.root {
+    background-color: lightgray;
+    border-radius: 25px 2px;
+    border: 2px solid gray;
+    width: 300px;
+}
+
+.btnClose {
+    border: none;
+    background-color: red;
+    display: flex;
+    border-radius: 10%;
+    float: right;
+    color: white;
+    margin: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.btnClose:hover {
+    background-color: rgb(252, 167, 164);
+    color: red;
+}
+
+h2 {
+    margin-top: 10px;
+}

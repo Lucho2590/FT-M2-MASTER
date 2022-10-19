@@ -1,0 +1,13 @@
+.btnBuscar {
+    margin: 5px;
+    border-radius: 5px;
+    border: darkgreen solid 2px;
+    color: darkgreen;
+    background-color: lightgray;
+}
+
+.btnBuscar:hover {
+    border: lightgray solid 2px;
+    color: lightgray;
+    background-color: darkgreen;
+}

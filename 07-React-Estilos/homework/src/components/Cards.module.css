@@ -1,0 +1,5 @@
+.targ {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+}
